@@ -1,0 +1,19 @@
+<div class="container">
+    <a class="btn btn-primary" href="/">Back</a>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each users}}
+            <tr>
+                <td>{{ name }}</td>
+                <td> {{ phone }} </td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>
